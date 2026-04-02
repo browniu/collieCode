@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find D:/works/space1/claude-code-sourcemap/restored-src/src -name *.ts -o -name *.js)",
+      "Bash(find D:/works/space1/claude-code-sourcemap/restored-src -type f \\\\\\(-name *.ts -o -name *.js -o -name *.d.ts \\\\\\))",
+      "Bash(xargs grep:*)"
+    ]
+  }
+}
